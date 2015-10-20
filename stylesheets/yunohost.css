@@ -1,0 +1,7 @@
+div.splitcontentright div.projects div.wiki {
+  display: none;
+}
+
+#projects-index div.wiki.description {
+  display: none;
+}

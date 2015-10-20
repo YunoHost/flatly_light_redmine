@@ -10,6 +10,7 @@
 @import url(pagination.css);
 @import url(redminebacklogs.css);
 @import url(activity.css);
+@import url(yunohost.css);
 
 html{
   overflow-x: hidden;
