@@ -1,7 +1,138 @@
+.redmine-logo {display: none;}
+div#top-menu #loggedas {
+text-align:left;
+padding-left: 20px;
+}
+
+div#content {
+  width: 78%;
+  padding: 2em;
+  border-right-width: 2px;
+background-color: #fff;
+}
+div#main {background-color: #fcfcfc;}
+
+div#content h2 {
+  margin-bottom: 1.5em;
+}
+
+div#header {
+  padding-left: 2em;
+  padding-bottom: 0;
+  min-height: 0;
+}
+div#header h1 {
+margin-left: 0;
+margin-bottom: 0.5em;
+}
+
+div#menu {
+  padding-right: 0;
+}
+div#menu .burger {
+  width: 2em;
+  margin: 0 2em;
+}
+div#quick-search {
+  left: 6em;
+  margin-left: 0;
+
+}
+
+div#main-menu {
+ position:static;
+}
+
+div#main-menu ul{
+margin-bottom:-2px;
+}
+div#main-menu ul li {
+float:none;
+display: inline-block;
+}
+div#main-menu ul li a{
+border-bottom: 0;
+}
+div#main-menu ul li a:hover,
+div#main-menu ul li a.selected:hover,
+div#main-menu ul li a.selected{
+border-bottom-width:2px;
+}
+
+div#main-menu li:first-child a {margin-left: 0;}
+
+div#footer {
+  border-top: 2px solid #ddd;
+  padding: 1em;
+}
+
 div.splitcontentright div.projects div.wiki {
-  display: none;
+  /*display: none;*/
 }
 
 #projects-index div.wiki.description {
-  display: none;
+  /*display: none;*/
+  font-size: 0.9em;
+  color: #666;
+}
+
+#project-index {}
+#projects-index ul.projects li.root {
+display:inline-block;
+vertical-align: top;
+width: 45%;
+padding-right: 4%;
+margin-bottom: 2em;
+}
+#projects-index ul.projects div.root a.project {
+display: block;
+  font-size: 2em;
+margin-bottom: 0.25em;
+}
+
+
+/* box */
+.box {
+  border: 2px solid #ddd;
+  padding: 1em;
+}
+.box ul {
+  padding-left: 1em;
+}
+.box p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* summary */
+.issue.box {
+}
+
+
+/* activity */
+p.other-formats {
+	margin: 4em 0;
+	padding-top: 0.5em;
+	border-top: 1px solid #ddd;	
+	color: #aaa;
+}
+#content div.flash.notice,
+p.nodata {
+	margin: 2em 0;
+	padding: 1em;
+	border-width: 2em;
+}
+#content div.flash.notice {margin-top: 1em;}
+
+
+
+#content div.wiki pre {
+  margin: 1em 0;
+  padding: 0.5em;
+}
+
+
+table {}
+table td {
+  vertical-align: top;
 }
