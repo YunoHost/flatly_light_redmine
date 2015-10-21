@@ -1,0 +1,48 @@
+input[type='text'],
+textarea,
+select {
+	border: 2px solid #D4DBE3;
+	color: #647082;
+	background: #FFF none repeat scroll 0% 0%;
+	padding: 4px 7px;
+}
+select#user_language {height: 2em;}
+
+label {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 6px;
+}
+label.inline,
+input[type='checkbox'] + label {padding-top: 0;}
+table.query-columns label {padding-top: 0;}
+
+.tabular p {padding-top: 0.5em;padding-bottom: 0.5em;}
+.tabular label {padding-top: 2px;}
+
+fieldset,
+fieldset.collapsible {
+  border: 2px solid #ddd;
+  padding: 1em;
+}
+fieldset.collapsible.collapsed {
+  border: 0;
+  border-top: 2px solid #ddd;
+  padding: 0 0 0 1em;
+}
+
+fieldset + fieldset {margin-top: 1em;}
+
+fieldset legend {
+  font-weight: bold;
+  padding: 0 0.5em 0 1em;
+}
+
+
+fieldset.box {}
+fieldset.box legend {
+  background: #fff;
+  padding: 0 0.5em;
+  border: 2px solid #ddd;
+  text-transform: uppercase;
+}
