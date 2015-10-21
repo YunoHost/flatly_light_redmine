@@ -67,7 +67,7 @@ div#footer {
 }
 
 div.splitcontentright div.projects div.wiki {
-  /*display: none;*/
+  display: none;
 }
 
 #projects-index div.wiki.description {
