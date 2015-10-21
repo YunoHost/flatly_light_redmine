@@ -1,3 +1,8 @@
+hr {
+  height: 2px;
+  background-color: #ddd;
+}
+
 .redmine-logo {display: none;}
 div#top-menu #loggedas {
 text-align:left;
@@ -57,6 +62,7 @@ div#main-menu ul li a:hover,
 div#main-menu ul li a.selected:hover,
 div#main-menu ul li a.selected{
 border-bottom-width:2px;
+background: none;
 }
 
 div#main-menu li:first-child a {margin-left: 0;}
@@ -136,4 +142,12 @@ p.nodata {
 table {}
 table td {
   vertical-align: top;
+}
+
+/* issue */
+
+div.issue {
+  border: 2px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
 }
