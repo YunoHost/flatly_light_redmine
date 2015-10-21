@@ -151,3 +151,26 @@ div.issue {
   padding: 1em;
   margin-bottom: 1em;
 }
+
+#issue-changesets {
+  width: 33%;
+  margin: 0px 0px 1em 1em;
+  padding: 0.5em;
+  background: #fff;
+  border: 2px solid #ddd;
+}
+#issue-changesets h3 {
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+div#issue-changesets div.changeset {
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  font-size: 0.9em;
+}
+div#issue-changesets div.changeset:last-child {border-bottom: 0;}
+div#issue-changesets div.changeset p {margin-bottom: 0.5em;}
+div#issue-changesets div.changeset > p br {display: none;}
+div#issue-changesets div.changeset > p .author {margin-left: 0.5em;}
+div#issue-changesets div.changeset .wiki{}
