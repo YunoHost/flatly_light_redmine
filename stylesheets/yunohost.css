@@ -77,7 +77,7 @@ div.splitcontentright div.projects div.wiki {
 }
 
 #projects-index div.wiki.description {
-  /*display: none;*/
+  display: none;
   font-size: 0.9em;
   color: #666;
 }
