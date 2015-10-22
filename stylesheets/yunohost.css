@@ -59,20 +59,20 @@ font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
   text-align: center;
 }
 
-.controller-welcome #content div.wiki h1 a {
+.controller-welcome #content div.welcome-text h1 a {
   color: inherit;
 }
 
-.controller-welcome #content div.wiki a.external {
+.controller-welcome #content div.welcome-text a.external {
   background: none;
   padding: 0 0.5em;
 }
 
-.controller-welcome #content div.wiki em a.external {
+.controller-welcome #content div.welcome-text em a.external {
   padding: 0;
 }
 
-.controller-welcome #content div.wiki a.wiki-anchor {
+.controller-welcome #content div.welcome-text a.wiki-anchor {
   display:none;
 }
 
