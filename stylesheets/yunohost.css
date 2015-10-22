@@ -4,4 +4,147 @@ div.splitcontentright div.projects div.wiki {
 
 #projects-index div.wiki.description {
   display: none;
+  font-size: 0.9em;
+  color: #666;
 }
+
+#project-index {}
+#projects-index ul.projects li.root {
+display:inline-block;
+vertical-align: top;
+width: 45%;
+padding-right: 4%;
+margin-bottom: 2em;
+}
+#projects-index ul.projects div.root a.project {
+display: block;
+  font-size: 2em;
+margin-bottom: 0.25em;
+font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
+}
+
+
+/* box */
+.box {
+  border: 2px solid #ddd;
+  padding: 1em;
+}
+.box ul {
+  padding-left: 1em;
+}
+.box p:last-child {
+  margin-bottom: 0;
+}
+
+/* welcome page hacks */
+.controller-welcome #content .splitcontentright {
+  display: none;
+}
+
+.controller-welcome #content .splitcontentleft {
+  width: 100%;
+}
+
+.controller-welcome #content h2:first-child {
+  display: none;
+}
+
+.controller-welcome #content blockquote {
+  float: left;
+  width: 45%;
+  font-style: normal;
+  border-left: none;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+}
+
+.controller-welcome #content div.wiki h1 a {
+  color: inherit;
+}
+
+.controller-welcome #content div.wiki a.external {
+  background: none;
+  padding: 0 0.5em;
+}
+
+.controller-welcome #content div.wiki em a.external {
+  padding: 0;
+}
+
+.controller-welcome #content div.wiki a.wiki-anchor {
+  display:none;
+}
+
+.controller-welcome #content blockquote img {
+  max-height: 172px;
+}
+
+.controller-welcome #content hr {
+  display: none;
+}
+
+/* summary */
+.issue.box {
+}
+
+
+/* activity */
+p.other-formats {
+	margin: 4em 0;
+	padding-top: 0.5em;
+	border-top: 1px solid #ddd;	
+	color: #aaa;
+}
+#content div.flash.notice,
+p.nodata {
+	margin: 2em 0;
+	padding: 1em;
+	border-width: 2em;
+}
+#content div.flash.notice {margin-top: 1em;}
+
+
+
+#content div.wiki pre {
+  margin: 1em 0;
+  padding: 0.5em;
+}
+
+
+table {}
+table td {
+  vertical-align: top;
+}
+
+/* issue */
+
+div.issue {
+  border: 2px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+div#issue-changesets {
+  width: 33%;
+  margin: 0px 0px 1em 1em;
+  padding: 0.5em;
+  background: #fff;
+  border: 2px solid #ddd;
+}
+div#issue-changesets h3 {
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+div#issue-changesets div.changeset {
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  font-size: 0.9em;
+}
+div#issue-changesets div.changeset:last-child {border-bottom: 0;}
+div#issue-changesets div.changeset p {margin-bottom: 0.5em;}
+div#issue-changesets div.changeset > p br {display: none;}
+div#issue-changesets div.changeset > p .author {margin-left: 0.5em;}
+div#issue-changesets div.changeset .wiki{line-height: 1;}
+
