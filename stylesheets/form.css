@@ -1,10 +1,11 @@
 input[type='text'],
+input[type='password'],
 textarea,
 select {
-	border: 2px solid #D4DBE3;
-	color: #647082;
-	background: #FFF none repeat scroll 0% 0%;
-	padding: 4px 7px;
+  border: 2px solid #D4DBE3;
+  color: #647082;
+  background: #FFF none repeat scroll 0% 0%;
+  padding: 4px 7px;
 }
 select#user_language {height: 2em;}
 
