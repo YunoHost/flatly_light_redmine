@@ -1,5 +1,7 @@
 /* buttons */
-input[type="submit"], button{
+input[type="submit"],
+input[type="button"],
+button{
   border: 2px solid #d4dbe3;
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
@@ -9,15 +11,25 @@ input[type="submit"], button{
   padding: 4px 7px 4px 7px;
   text-decoration: none;
   font-size: 15px;
+  cursor: pointer;
 }
 
-input[type="submit"]:hover, button:hover {
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover {
   border-color: #129cf7;
   color: #000;
 }
+
 
 .buttons a,
 .buttons a:hover,
 .buttons a:focus {
   text-decoration: none;
 }
+
+table.query-columns td.buttons {
+  vertical-align: top;
+  padding: 1.5em;
+}
+
