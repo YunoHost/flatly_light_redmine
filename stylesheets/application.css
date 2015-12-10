@@ -80,9 +80,9 @@ h1:first-letter{
   border-bottom: 3px solid #2d3747;
 }
 #top-menu, body, #menu, #quick-search {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  transition: all 0.15s ease;
 }
 
 #menu{
