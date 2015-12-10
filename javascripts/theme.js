@@ -2,7 +2,8 @@
 
   'use strict';
   /* set true to enable static sidebar */
-  var activeStaticSidebar = false
+  var activeStaticSidebar = false;
+  var sidebarOpenByDefault = true;
 
   function classReg( className ) {
     return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
@@ -61,10 +62,7 @@
 
     showLeft.onclick = function() {
       classie.toggle( this, 'active' );
-      classie.toggle( body, 'menu-push-toright' );
-      classie.toggle( menuButton, 'menu-push-toright' );
-      classie.toggle( search, 'menu-push-toright' );
-      classie.toggle( menuLeft, 'open' );
+      classie.toggle( body, 'menu-open' );
     };
   }
   if (!activeStaticSidebar) {
@@ -80,18 +78,14 @@
     $( "#quick-search form" ).css('margin-right', $( "#s2id_project_quick_jump_box" ).width() + 60);
     $( 'input[name$="q"]' ).attr( 'placeholder','Enter Search Text' );
     if (activeStaticSidebar) {
-      $( "#wrapper3" ).css( "margin-left", "215px" );
-      $( "#quick-search" ).css( "left", "200px" );
-      $( "#top-menu" ).css( "left", "0" );
-      $( "#top-menu" ).css( "width", "215px" );
-      $( "#top-menu" ).css( "transition", "none" );
-      $( "#quick-search" ).css( "transition", "none" );
+      // Remove click handler
+      showLeft.onclick = function(){};
+    }
+    if (sidebarOpenByDefault) {
+      classie.toggle( this, 'active' );
+      classie.toggle( body, 'menu-open' );
     }
   })
-  $( document ).on( "click", "#main, #header", function() {
-    $( "#top-menu" ).removeClass( "open" );
-    $( ".menu-push-toright" ).removeClass( "menu-push-toright" );
-  });
   window.onerror = function myErrorFunction(message, url, linenumber) {
     if (location.href.indexOf("/dmsf") != -1 || location.href.indexOf("/master_backlog") != -1){
       $(document).ready(addLogo)

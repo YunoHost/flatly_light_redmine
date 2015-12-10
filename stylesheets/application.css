@@ -39,7 +39,7 @@ h1:first-letter{
   background: #FFF;
   border-bottom: 4px solid #47a3da;
   color: #999;
-  width: 240px;
+  width: 180px;
   height: 100%;
   top: 0;
   z-index: 100;
@@ -75,11 +75,11 @@ h1:first-letter{
 }
 
 #top-menu > ul{
-  margin-top: 20px;
-  padding: 0 0 20px 20px;
+  margin-top: 10px;
+  padding: 0 0 10px 10px;
   border-bottom: 3px solid #2d3747;
 }
-#top-menu, .menu-push-toright, body, #menu, #quick-search {
+#top-menu, body, #menu, #quick-search {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -102,15 +102,15 @@ h1:first-letter{
   left: 0;
 }
 
-.menu-push-toright{
-  left: 240px;
+body.menu-push-toright{
+  padding-left: 180px;
 }
-#menu.menu-push-toright{
-  left: 240px;
+body.menu-push-toright #menu{
+  left: 180px;
 }
 
-#quick-search.menu-push-toright{
-  left: 300px;
+body.menu-push-toright #quick-search{
+  left: 278px;
 }
 
 label[for="q"]{
@@ -186,8 +186,8 @@ label[for="q"]{
 #account{
   position: absolute;
   bottom: 0;
-  margin-bottom: 50px;
-  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 #account .tt_start, #account .tt_stop{
   padding: 0px;
