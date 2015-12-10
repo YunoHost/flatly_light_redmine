@@ -82,10 +82,9 @@
       showLeft.onclick = function(){};
     }
     if (sidebarOpenByDefault) {
-      classie.toggle( this, 'active' );
-      classie.toggle( body, 'menu-open' );
+        $('body').addClass('menu-open');
     }
-  })
+  });
   window.onerror = function myErrorFunction(message, url, linenumber) {
     if (location.href.indexOf("/dmsf") != -1 || location.href.indexOf("/master_backlog") != -1){
       $(document).ready(addLogo)
