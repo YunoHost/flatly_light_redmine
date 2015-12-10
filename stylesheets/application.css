@@ -300,6 +300,11 @@ p.nodata{
   display: inline-block;
   width: 23px;
 }
+.icon.icon-folder {
+  background: none;
+  padding-left: 0;
+}
+
 /*============ ISSUE ===========*/
 div.issue { background: #f6f6f6; }
 /*============ SELECT ==========*/
@@ -330,4 +335,10 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   top: 17px;
   right: 10px;
 }
+/*=========== REPOSITORY ======*/
+tr span.expander {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
