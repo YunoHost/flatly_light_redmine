@@ -98,17 +98,16 @@ h1:first-letter{
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-#top-menu.open{
-  left: 0;
-}
 
 body.menu-open{
   padding-left: 180px;
 }
+body.menu-open #top-menu{
+  left: 0;
+}
 body.menu-open #menu{
   left: 180px;
 }
-
 body.menu-open #quick-search{
   left: 278px;
 }
