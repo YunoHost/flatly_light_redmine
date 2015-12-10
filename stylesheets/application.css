@@ -102,14 +102,14 @@ h1:first-letter{
   left: 0;
 }
 
-body.menu-push-toright{
+body.menu-open{
   padding-left: 180px;
 }
-body.menu-push-toright #menu{
+body.menu-open #menu{
   left: 180px;
 }
 
-body.menu-push-toright #quick-search{
+body.menu-open #quick-search{
   left: 278px;
 }
 
