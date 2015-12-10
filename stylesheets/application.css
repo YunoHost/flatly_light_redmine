@@ -19,7 +19,7 @@ html{
 body {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
   font-size: 100%;
-  padding: 0 !important;
+  padding: 0;
   margin: 0;
   position: relative;
   left: 0;
@@ -99,7 +99,7 @@ h1:first-letter{
 }
 
 
-body.menu-open{
+body.menu-open {
   padding-left: 180px;
 }
 body.menu-open #top-menu{
