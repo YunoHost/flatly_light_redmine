@@ -317,6 +317,19 @@ p.nodata{
 
 /*============ ISSUE ===========*/
 div.issue { background: #f6f6f6; }
+
+// .controller-issues #content > h2 {font-size: 30px;}
+
+.issue .subject h3 {font-size: 30px;}
+
+.history {}
+.history > h3 {font-size: 20px;}
+.history h4 {font-weight: normal;font-size: 14px;}
+
+.history + .contextual {
+  margin-top: 3em;
+}
+
 /*============ SELECT ==========*/
 select {
     background: #fff;
