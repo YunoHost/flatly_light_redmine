@@ -3,7 +3,7 @@
   'use strict';
   /* set true to enable static sidebar */
   var activeStaticSidebar = false;
-  var sidebarOpenByDefault = true;
+  var sidebarOpenByDefault = false;
 
   function classReg( className ) {
     return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
@@ -81,8 +81,10 @@
       // Remove click handler
       showLeft.onclick = function(){};
     }
+
     if (sidebarOpenByDefault) {
-        $('body').addClass('menu-open');
+      $('body').addClass('menu-open');
+      $(document).ready(opensidebar);
     }
   });
   window.onerror = function myErrorFunction(message, url, linenumber) {
