@@ -352,3 +352,19 @@ tr span.expander {
 }
 
 
+
+/*=========== Documents (wiki) ======*/
+.controller-documents {}
+.controller-documents #content > h2 {font-size: 30px;margin-bottom: 0.5em;}
+.controller-documents .wiki {
+  padding: 1em 0;
+  border-bottom: 1px solid #BBB;
+  border-top: 1px solid #BBB;
+  margin-bottom: 1em;
+}
+.controller-documents .wiki h2 {font-size: 20px;margin-bottom: 0.5em;}
+.controller-documents .wiki h3 {font-size: 16px;}
+.controller-documents .wiki pre {
+  font-size: 14px;
+  border-radius: 0;
+}
