@@ -368,6 +368,18 @@ tr span.expander {
 
 /*=========== Documents (wiki) ======*/
 .controller-documents {}
+
+.controller-documents.action-index {}
+.controller-documents.action-index h3 {
+  margin-top: 20px;
+}
+.controller-documents.action-index h4 {
+  font-size: 20px;
+  border: none;
+}
+.controller-documents.action-index h4 + p,
+.controller-documents.action-index h4 + p + .wiki {display: none;}
+
 .controller-documents #content > h2 {font-size: 30px;margin-bottom: 0.5em;}
 .controller-documents .wiki {
   padding: 1em 0;
